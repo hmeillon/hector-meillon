@@ -1,0 +1,295 @@
+.gradient-background {
+  background: linear-gradient(300deg, #98adb5, #c7f5f5, #f0f0a3);
+  background-size: 100% 100%;
+  animation: gradient-animation 10s ease infinite;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Syne', sans-serif;
+  font-size: 80px;
+  color: #4269ED;
+}
+
+h2 {
+  font-family: 'Syne', sans-serif;
+  color: #4269ED;
+}
+
+h3 {
+  font-family: 'Syne', sans-serif;
+  color: #4269ED;
+  font-size: 45px;
+}
+
+p {
+  font-family: 'Syne', sans-serif;
+  font-size: large;
+}
+
+hr {
+  border: dashed #a6b7ee 5px;
+  border-bottom: none;
+  width: 5%;
+}
+
+button {
+  background: linear-gradient(300deg, #98adb5, #c7f5f5, #f0f0a3);
+  border: #98adb5;
+  color: #4269ED;
+  box-shadow: 2px 2px 2px rgb(88, 87, 87);
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 5%;
+  width: 120px;
+  height: 40px;
+}
+
+button:hover {
+  background: linear-gradient(300deg, #c7f5f5, #f0f0a3, #98adb5);
+  border: #98adb5;
+  color: #4269ED;
+  cursor: pointer;
+}
+
+img {
+  filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+}
+
+.top-cloud {
+  position: relative;
+  height: 130px;
+  left: 300px;
+}
+
+.bottom-cloud {
+  position: relative;
+  height: 130px;
+  right: 300px;
+}
+
+.isle {
+  position: relative;
+  height: 220px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.hector-pfp {
+  border-radius: 50%;
+  height: 160px;
+}
+
+.middle-container {
+  background-color: azure;
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.hector-section {
+  padding-bottom: 50px;
+}
+
+.skills-block {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.skills {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: left;
+  width: 50%;
+  row-gap: 80px;
+  padding-left: 450px;
+}
+
+.web-develop-img {
+  height: 120px;
+}
+
+.lego-img {
+  height: 120px;
+}
+
+.videogame-img {
+  height: 120px;
+}
+
+.past-projects {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.projects-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-img {
+  height: 170px;
+}
+
+.project-img:hover {
+  filter: brightness(100%);
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.app-logo:hover {
+  filter: brightness(100%);
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.project-text {
+  text-align: justify;
+}
+
+.get-in-touch {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.socials {
+  display: grid;
+  grid-template-columns: 80px 80px 80px;
+  grid-template-rows: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.footer-p {
+  font-size: small;
+  color: darkslategrey;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 999px) {
+  h1 {
+    font-size: 110px;
+  }
+
+  p {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  button {
+    font-size: 22px;
+    width: 170px;
+    height: 70px;
+  }
+
+  .hectorprogrammer {
+    font-size: 60px;
+  }
+
+  .top-cloud {
+    height: 200px;
+    left: 250px;
+    padding-top: 50px;
+    padding-bottom: 85px;
+  }
+
+  .bottom-cloud {
+    height: 200px;
+    right: 250px;
+    padding-top: 85px;
+  }
+  
+  .isle {
+    padding-top: 40px;
+    height: 400px;
+  }
+
+  .hector-pfp {
+    height: 250px;
+  }
+   
+  .skills {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 900px;
+    grid-template-rows: 0fr 0fr 0fr 0fr 0fr;
+    text-align: center;
+    width: 50%;
+    row-gap: 50px;
+    padding-left: 40px;
+  }
+
+  .skills-p {
+    font-size: 48px;
+  }
+
+  .skills-img {
+    height: 170px;
+  }
+
+  .projects-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 100px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .project-img {
+    height: 280px;
+  }
+
+  .projects-p {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .socials {
+    gap: 60px;
+  }
+
+  .app-logo {
+    width: 70px;
+    height: 70px;
+    padding-top: 20px;
+  }
+
+  .footer-p {
+    padding-top: 15px;
+    padding-bottom: 50px;
+  }
+}
